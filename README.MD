@@ -1,33 +1,33 @@
-CRUD com PostgreSQL e Python
+# CRUD com PostgreSQL e Python
 
-Projeto de estudos para praticar operações de CRUD (Create, Read, Update e Delete)
-utilizando Python e PostgreSQL com a biblioteca psycopg2.
+Projeto de estudos para praticar operações de CRUD (Create, Read, Update e Delete) utilizando Python e PostgreSQL com a biblioteca `psycopg2`.
 
-------------------------------------------------------------
+<br>
 
-Objetivo
+## 🎯 Objetivo
 
 Este projeto tem como objetivo consolidar conhecimentos em:
 
 - Conexão com banco de dados PostgreSQL
 - Execução de comandos SQL com Python
 - Operações de INSERT, SELECT, UPDATE e DELETE
-- Boas práticas de segurança com variáveis de ambiente (.env)
+- Boas práticas de segurança com variáveis de ambiente (`.env`)
 - Organização básica de um projeto backend
 
-------------------------------------------------------------
+<br>
 
-Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- Python
-- PostgreSQL
-- psycopg2
-- python-dotenv
+- **Python**
+- **PostgreSQL**
+- **psycopg2**
+- **python-dotenv**
 
-------------------------------------------------------------
+<br>
 
-Estrutura do projeto
+## 📂 Estrutura do Projeto
 
+```text
 crud_postgre/
 ├── main.py
 ├── db.py
@@ -37,37 +37,46 @@ crud_postgre/
 ├── README.md
 └── requirements.txt
 
-------------------------------------------------------------
+Use o código com cuidado.
 
-Funcionalidades
+✨ Funcionalidades
 
-- Consulta de usuários cadastrados
-- Inserção de novos usuários
-- Atualização de dados de usuários existentes
-- Remoção de usuários do banco de dados
-- Menu interativo via terminal
+    Consulta de usuários cadastrados
+    Inserção de novos usuários
+    Atualização de dados de usuários existentes
+    Remoção de usuários do banco de dados
+    Menu interativo via terminal
 
-------------------------------------------------------------
 
-Como rodar o projeto localmente
-
+🚀 Como rodar o projeto localmente
 1. Clonar o repositório
+bash
 
 git clone https://github.com/sbagzz/crud_postgre_python.git
 cd crud_postgre
 
+Use o código com cuidado.
 2. Criar e ativar o ambiente virtual
+bash
 
+# Windows
 python -m venv venv
 venv\Scripts\activate
 
+# Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
+
+Use o código com cuidado.
 3. Instalar as dependências
+bash
 
 pip install -r requirements.txt
 
+Use o código com cuidado.
 4. Configurar as variáveis de ambiente
-
 Crie um arquivo .env baseado no .env.example:
+env
 
 DB_NAME=estudos_postgres
 DB_USER=postgres
@@ -75,15 +84,18 @@ DB_PASSWORD=sua_senha
 DB_HOST=localhost
 DB_PORT=5432
 
-O arquivo .env não deve ser versionado.
+Use o código com cuidado.
+
+    Nota: O arquivo .env não deve ser versionado. 
 
 5. Executar o projeto
+bash
 
 python main.py
 
-------------------------------------------------------------
+Use o código com cuidado.
 
-Autor
-
-Gabriel Noronha de Araujo  
+✍️ Autor
+Gabriel Noronha de Araujo
 Desenvolvedor Python em formação
+
