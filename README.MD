@@ -37,7 +37,7 @@ crud_postgre/
 ├── README.md
 └── requirements.txt
 
-Use o código com cuidado.
+
 
 ✨ Funcionalidades
 
@@ -55,7 +55,7 @@ bash
 git clone https://github.com/sbagzz/crud_postgre_python.git
 cd crud_postgre
 
-Use o código com cuidado.
+
 2. Criar e ativar o ambiente virtual
 bash
 
@@ -67,13 +67,12 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-Use o código com cuidado.
 3. Instalar as dependências
 bash
 
 pip install -r requirements.txt
 
-Use o código com cuidado.
+
 4. Configurar as variáveis de ambiente
 Crie um arquivo .env baseado no .env.example:
 env
@@ -84,7 +83,7 @@ DB_PASSWORD=sua_senha
 DB_HOST=localhost
 DB_PORT=5432
 
-Use o código com cuidado.
+
 
     Nota: O arquivo .env não deve ser versionado. 
 
@@ -93,7 +92,7 @@ bash
 
 python main.py
 
-Use o código com cuidado.
+
 
 ✍️ Autor
 Gabriel Noronha de Araujo
