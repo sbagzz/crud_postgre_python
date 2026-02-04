@@ -2,7 +2,7 @@
 
 Projeto de estudos para praticar operações de CRUD (Create, Read, Update e Delete) utilizando Python e PostgreSQL com a biblioteca `psycopg2`.
 
-<br>
+
 
 ##  Objetivo
 
@@ -14,7 +14,7 @@ Este projeto tem como objetivo consolidar conhecimentos em:
 - Boas práticas de segurança com variáveis de ambiente (`.env`)
 - Organização básica de um projeto backend
 
-<br>
+
 
 ##  Tecnologias Utilizadas
 
@@ -23,7 +23,7 @@ Este projeto tem como objetivo consolidar conhecimentos em:
 - **psycopg2**
 - **python-dotenv**
 
-<br>
+
 
 ##  Estrutura do Projeto
 
@@ -36,9 +36,7 @@ crud_postgre/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
-<br>
-
+´´´
 ## Funcionalidades
 
     Consulta de usuários cadastrados
@@ -55,7 +53,7 @@ bash
 git clone https://github.com
 cd crud_postgre
 
-Use o código com cuidado.
+
 2. Criar e ativar o ambiente virtual
 bash
 
@@ -84,7 +82,6 @@ bash
 
 python main.py
 
-<br>
 
 ## Autor
 Gabriel Noronha de Araujo
