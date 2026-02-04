@@ -46,7 +46,7 @@ Funcionalidades
 Como rodar o projeto localmente
 
 1. Clonar o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/sbagzz/crud_postgre_python.git
 cd crud_postgre
 
 2. Criar e ativar o ambiente virtual
